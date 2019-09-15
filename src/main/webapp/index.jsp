@@ -32,7 +32,7 @@ body {
 <body>
 
 	<%@ include file="header.jsp"%>
-	StudentSuvidha is a community for students where all students in the
+	<p>StudentSuvidha is a community for students where all students in the
 	same fields can commute with each other and they can help their mates.
 	We help them by providing notes and previous year question papers. So
 	that they don’t have to waste their precious time in searching for
@@ -40,6 +40,6 @@ body {
 
 	PassHoJao is a platform for students to create and consume content
 	relevant to them. Volunteer to provide support and help expand the
-	passhojao community.
+	passhojao community.</p>
 </body>
 </html>

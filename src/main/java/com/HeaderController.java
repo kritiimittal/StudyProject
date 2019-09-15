@@ -57,8 +57,6 @@ public class HeaderController {
 	String Json = gson.toJson(list);
 	response.getWriter().write(Json);
 	//return "CountryListCheck";
-	
-	
 	}
 
 
