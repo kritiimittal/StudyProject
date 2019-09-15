@@ -1,4 +1,4 @@
-package com;
+package com.controller;
 
 import org.springframework.ui.Model;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.study.Login;
+import com.study.studyjdbc;
 import com.sun.corba.se.impl.oa.poa.ActiveObjectMap.Key;
 import com.sun.xml.internal.messaging.saaj.packaging.mime.util.BASE64DecoderStream;
 import com.sun.xml.internal.messaging.saaj.packaging.mime.util.BASE64EncoderStream;
@@ -125,18 +127,7 @@ public class LoginController {
     }
 
 
-	
-	/*@RequestMapping(value = "/logged_in", method = RequestMethod.POST)
-	public String func2(@ModelAttribute("login") Login l) {
 
-		int s = ldao.getUser(l.getUsername(), l.getPassword());
-		if (s == 0)
-			return "Error";
-		else
-			return "upload";
-		// will redirect to viewemp request mapping
-	}*/
-	
     public static String encrypt(String str) {
         try {
             // encode the string into a sequence of bytes using the named charset
