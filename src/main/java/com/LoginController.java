@@ -37,7 +37,7 @@ public class LoginController {
 	static BASE64Encoder encoder = new BASE64Encoder();
 	static BASE64Decoder decoder = new BASE64Decoder();
 	@Autowired
-	LoginDao ldao;
+	studyjdbc ldao;
 
 	@RequestMapping("/login")
 	public String func1(Model m) {

@@ -3,7 +3,7 @@ package com;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 
-public class LoginDao {
+public class studyjdbc {
 
 	JdbcTemplate template;
 
